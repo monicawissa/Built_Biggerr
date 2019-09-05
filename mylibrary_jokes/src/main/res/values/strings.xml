@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Library_jokes</string>
+    <string name="title">JokesActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
