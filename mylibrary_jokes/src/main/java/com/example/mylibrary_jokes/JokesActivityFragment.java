@@ -27,6 +27,9 @@ public class JokesActivityFragment extends Fragment {
 
         String gce_res = getActivity().getIntent().getStringExtra("gce_result");
         TextView gce_result_show = (TextView) v.findViewById(R.id.jokes_text_view);
+        if(gce_res==""){
+            gce_res="no data to show";
+        }
         gce_result_show.setText(gce_res);
 
         return v;
