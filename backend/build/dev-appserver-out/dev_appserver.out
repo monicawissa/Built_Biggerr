@@ -19,3 +19,8 @@ Sep 06, 2019 3:51:03 PM com.google.appengine.tools.development.AbstractModule st
 INFO: The admin console is running at http://localhost:8080/_ah/admin
 Sep 06, 2019 5:51:03 PM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
+2019-09-06 18:59:45.840:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@57536d79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-09-06 18:59:46.058:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@4f32a3ad{/,file:///E:/NanodegreeAndroid/ud867-master/FinalProject/backend/build/exploded-backend/,UNAVAILABLE}{E:\NanodegreeAndroid\ud867-master\FinalProject\backend\build\exploded-backend}
+Sep 06, 2019 6:59:46 PM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
