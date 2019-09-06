@@ -2,6 +2,7 @@ package com.example.mylibrary_jokes;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,7 +27,7 @@ public class JokesActivityFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_jokes_activity, container, false);
        String gce_res = getActivity().getIntent().getStringExtra("gce_result");
         TextView gce_result_show = (TextView) v.findViewById(R.id.jokes_text_view);
-        if(gce_res==""){
+        if(TextUtils.isEmpty( gce_res)){
             gce_res="no data to show";
         }
         gce_result_show.setText(gce_res);
