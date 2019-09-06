@@ -24,8 +24,7 @@ public class JokesActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_jokes_activity, container, false);
-
-        String gce_res = getActivity().getIntent().getStringExtra("gce_result");
+       String gce_res = getActivity().getIntent().getStringExtra("gce_result");
         TextView gce_result_show = (TextView) v.findViewById(R.id.jokes_text_view);
         if(gce_res==""){
             gce_res="no data to show";
